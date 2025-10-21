@@ -19,7 +19,7 @@ const EditBooks = () => {
   }
   return (
     <div className='p-4'>
-        <h1 className='text-center'> Edit Books </h1>
+        <h1 className='text-center text-2xl font-bold text-fuchsia-600 mb-2'> Edit Books </h1>
         <form onSubmit={handleSubmit} className='bg-red-200 p-5 sm:w-1/2 mx-auto rounded-lg'>
           <div>
             <label className='w-16 inline-block' htmlFor="title"> Title : </label>

@@ -22,7 +22,7 @@ const AddBooks = () => {
 
   return (
     <div className='p-4'>
-        <h1 className='text-2xl text-center font-bold mb-3'> Add All Books </h1>
+        <h1 className='text-2xl text-center font-bold mb-3'> Add Book </h1>
 
         <form onSubmit={handleSubmit} className='bg-red-200 px-5 py-16 sm:w-2/3 sm:mx-auto rounded-lg'>
           <div>
