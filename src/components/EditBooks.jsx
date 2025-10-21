@@ -18,9 +18,9 @@ const EditBooks = () => {
     setAuthor('');
   }
   return (
-    <div>
-        <h1> Edit Books </h1>
-        <form onSubmit={handleSubmit} className='bg-red-200 p-5 w-1/2 mx-auto rounded-lg'>
+    <div className='p-4'>
+        <h1 className='text-center'> Edit Books </h1>
+        <form onSubmit={handleSubmit} className='bg-red-200 p-5 sm:w-1/2 mx-auto rounded-lg'>
           <div>
             <label className='w-16 inline-block' htmlFor="title"> Title : </label>
             <input type="text" id='title' name='title' value={title} onChange={(e)=> setTitle(e.target.value)} required className='border rounded bg-white'/>
